@@ -1,0 +1,69 @@
+reviews were on point though not very in depth 9.5/10
+
+NOTES ON YOUR PLOT
+===================
+
+typical plot in finance: complies to tufte's idea of small multiples
+nice seaborn plot that conveys a lot of info at once.
+
+
+x, y labels should be spelled out, not a variable name with an underscore
+
+labels too small
+
+the fit line cannot be seen over the poitns. consider a different color or remove the points insice the contours (which are redundant and blended anyways)
+
+
+
+
+
+
+
+NOTES ON YOUR PLOT THE PLOTS YOU REVIEWED
+===========================================
+
+
+rbc299
+============
+
+the 2 points default in the legend should he substituted by a single plot as it is redundant and with large points it overlaps
+
+missing units on x and y axis
+
+
+the y tick labels should be in a more compressed readable notation, e.g. change units to millions
+
+
+the empty space in the plot is distracting and does not help comparison (remember tufte's rules) 
+
+the point size is unexplained
+
+the color of Bk and Bx is indistinguishable at first sight
+
+the legend shows "dot size reflects..." which belongs in a separate label, not in the legend, and it confuses the association of the blue color to SI.
+
+size differential too large
+
+
+
+
+tg1442
+============
+
+too many vivid colors are distracting
+
+agegroup one word in the tiel
+
+thousands is not ameaningful axis labels; use "Population (units of 1,000 peope")
+
+and then why use units of 1000 when your first tick label is 1e5? then one has to think what 1e5*1000 is. use units of millions, and then your first tick is 100 etc
+
+
+mu529
+============
+  
+interesting plot: the choice of plotting with small points allows the structure in the data to be seen
+
+robust to color blindness
+
+the three default dots in the legend should be changed to 1 as they are redudnant
